@@ -13,7 +13,6 @@ module Todo
       daily_tasks =  YAML.load_file('./daily_task.yml')
 
       daily_tasks["tasks"].each_value do |val|
-        puts "#{val['name']}"
         @backlog.push(Task.new(val['name']))
       end
 
