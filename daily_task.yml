@@ -1,0 +1,7 @@
+tasks:
+  mail:
+    name: 'メール確認'
+  lock:
+    name: '施錠'
+  daily_report:
+    name: '日報'
